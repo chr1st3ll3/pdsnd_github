@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
@@ -233,20 +233,20 @@ def user_stats(df,city):
 
 def dislplay_data(df):
     """Raw data is displayed upon request by user"""
-    opt = ""
+    option = ""
     start_loc = 0
     try:
-         while opt == "":
-            opt = input("Would yoou like to view 5 rows of individual trip data? Enter yes or no: ").lower()
-            if opt == "yes":
+         while option == "":
+            option = input("Would yoou like to view 5 rows of individual trip data? Enter yes or no: ").lower()
+            if option == "yes":
                 print(df.iloc[start_loc:start_loc+5])
                 start_loc += 5
-                opt = ""
-            elif opt == "no":
+                option = ""
+            elif option == "no":
                 break
             else:
                 print("Error: pick a valid option.")
-                opt=""
+                option=""
               
     except:
         print("Error")
