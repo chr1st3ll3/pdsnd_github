@@ -4,16 +4,16 @@
 july 23rd 2023
 
 ### Project Title
-Bikeshare project
+Bikeshare project - Data Science  project
 
 ### Description
 Explores data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
 
 ### Files used
-bikeshare_2.py
-chicago.csv
-new_york_city.csv
-washington.csv
+bikeshare_2.py - source code
+chicago.csv - data file
+new_york_city.csv - data file
+washington.csv - data file
 
 ### Credits
 https://stackoverflow.com
